@@ -1,0 +1,67 @@
+[data-testid="stSidebarUserContent"] {
+    padding: 0.5rem 1.5rem !important;
+}
+
+[data-testid="stVerticalBlock"] {
+    gap: 0.5rem !important
+}
+.block-container {
+    padding: 3rem 1.5rem !important;
+}
+[data-testid="stWidgetLabel"] {
+    margin-bottom: 0.1rem !important;
+}
+.st-ce {
+    padding-bottom: 0.2rem !important;
+}
+
+.st-cd {
+    padding-top: 0rem 0.2rem !important;
+}
+
+.st-dn {
+    font-size: 0.8rem !important;
+}
+
+p, ol, ul, dl {
+    font-size: 0.8rem !important;
+    line-height: 0.8rem !important;
+    font-weight: 600 !important;
+}
+
+summary p{
+    font-size: 1.0rem !important;
+}
+
+textarea {
+    padding: 0.5rem !important;
+}
+
+button {
+    padding: 0rem 0.3rem !important;
+}
+
+button[data-baseweb="tab"] p {
+    font-size: 1.0rem !important;
+    line-height: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+/* Trying to make the iframes disappear from the layout
+tred everything: height, display, margin-top, margin-bottom
+div[data-stale="false"]:has(> iframe) {
+    order: 9999; Ensure this element is last */
+    /* height: 1rem !important
+}
+
+div:has(> div[data-stale="false"] iframe) {
+    flex-direction: column-reverse !important;
+    gap: 0rem !important
+}
+
+div[data-testid="stStatusWidget"] {
+    display:none !important;
+    height:0px !important;
+    margin-top:-100px;
+} */
+
