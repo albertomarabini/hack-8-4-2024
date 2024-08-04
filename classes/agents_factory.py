@@ -1,6 +1,5 @@
 import os
 from typing import TYPE_CHECKING, Any, Dict, Optional
-from crewai import Crew, Process, Agent, Task
 from langchain_core.pydantic_v1 import BaseModel, Field
 
 ## MODELS
@@ -14,11 +13,7 @@ from langchain_mistralai import ChatMistralAI
 ## EMBEDDINGS
 from langchain_openai.embeddings import OpenAIEmbeddings
 
-os.environ["TAVILY_API_KEY"]='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'
 os.environ["OPENAI_API_KEY"] = "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"
-os.environ["GROQ_API_KEY"]= "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"
-os.environ["ANTHROPIC_API_KEY"] ="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"
-os.environ["MISTRAL_API_KEY"] ="FO03izNumFoz6ACIUAS2DVXKZHnOnxWI"
 
 # Testing for Bosch
 # from langchain_experimental.llms.ollama_functions import OllamaFunctions
